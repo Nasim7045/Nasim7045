@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 I’m currently working on : System Programs<br><br>👯 I’m looking to collaborate on : Ai & System Programs<br><br>🌱 I’m currently learning C, C++, Python, Cloud Computing, Systems, etc.<br><br>💬 Ask me about : python, Ai, System Engineering, Cloud Platforms, APIs, Cloud Computing <br><br>📫 How to reach me : nasimk7045@outlook.com<br><br>👨‍💻 All of my projects are available at : https://nasimkhan-portfolio.netlify.app/#home<br>
+🔭 I’m currently working on : System Programs & Cloud<br><br>👯 I’m looking to collaborate on : Ai & System Programs<br><br>🌱 I’m currently learning C, C++, Python, Cloud Computing, Systems, etc.<br><br>💬 Ask me about : python, Ai, System Engineering, Cloud Platforms, APIs, Cloud Computing <br><br>📫 How to reach me : nasimk7045@outlook.com<br><br>👨‍💻 All of my projects are available at : https://nasimkhan-portfolio.netlify.app/#home<br>
 
 
 ## 🌐 Socials:
