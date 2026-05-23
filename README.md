@@ -1,88 +1,6 @@
 <div align="center">
 
-<!-- TWO-HEADED CYBER EAGLE -->
-<svg width="700" height="220" viewBox="0 0 700 220" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <radialGradient id="bgGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#001a0a;stop-opacity:1"/>
-      <stop offset="100%" style="stop-color:#000000;stop-opacity:1"/>
-    </radialGradient>
-    <filter id="neonGlow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="3" result="blur1"/>
-      <feGaussianBlur stdDeviation="6" result="blur2"/>
-      <feMerge><feMergeNode in="blur2"/><feMergeNode in="blur1"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <filter id="softGlow">
-      <feGaussianBlur stdDeviation="2" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-  </defs>
-  <rect width="700" height="220" fill="url(#bgGlow)"/>
-  <!-- Matrix rain (decorative) -->
-  <g fill="#00ff41" font-family="monospace" font-size="9" opacity="0.18">
-    <text x="18" y="15">1</text><text x="18" y="28">0</text><text x="18" y="54">1</text><text x="18" y="80">0</text><text x="18" y="120">1</text><text x="18" y="160">0</text><text x="18" y="200">1</text>
-    <text x="40" y="20">0</text><text x="40" y="50">1</text><text x="40" y="90">0</text><text x="40" y="140">1</text><text x="40" y="185">0</text>
-    <text x="62" y="10">1</text><text x="62" y="45">0</text><text x="62" y="85">1</text><text x="62" y="130">0</text><text x="62" y="175">1</text>
-    <text x="638" y="15">0</text><text x="638" y="55">1</text><text x="638" y="100">0</text><text x="638" y="150">1</text><text x="638" y="195">0</text>
-    <text x="660" y="25">1</text><text x="660" y="65">0</text><text x="660" y="110">1</text><text x="660" y="160">0</text><text x="660" y="205">1</text>
-    <text x="682" y="10">0</text><text x="682" y="48">1</text><text x="682" y="90">0</text><text x="682" y="135">1</text><text x="682" y="180">0</text>
-  </g>
-  <!-- Shield -->
-  <path d="M350,28 L422,50 L432,122 Q432,168 350,198 Q268,168 268,122 L278,50 Z" fill="none" stroke="#00cc33" stroke-width="1.5" opacity="0.3" filter="url(#softGlow)"/>
-  <!-- LEFT WING -->
-  <g fill="none" stroke="#00ff41" stroke-linecap="round" filter="url(#neonGlow)">
-    <path d="M308,112 Q258,92 192,78" stroke-width="2.2"/>
-    <path d="M308,122 Q248,112 172,106" stroke-width="2"/>
-    <path d="M308,133 Q246,133 168,136" stroke-width="1.8"/>
-    <path d="M308,142 Q250,146 176,160" stroke-width="1.6"/>
-    <path d="M308,150 Q254,162 190,183" stroke-width="1.4"/>
-    <path d="M308,108 Q268,86 228,70 Q198,58 172,63 Q152,68 146,84 Q140,100 156,110 Q173,120 200,117 Q242,113 280,118" stroke-width="1.4" opacity="0.65"/>
-    <line x1="192" y1="78" x2="174" y2="70" stroke-width="1.2" opacity="0.8"/>
-    <line x1="172" y1="106" x2="152" y2="101" stroke-width="1.2" opacity="0.8"/>
-    <line x1="168" y1="136" x2="146" y2="134" stroke-width="1.2" opacity="0.8"/>
-    <line x1="176" y1="160" x2="156" y2="163" stroke-width="1.2" opacity="0.8"/>
-    <line x1="190" y1="183" x2="172" y2="191" stroke-width="1.2" opacity="0.8"/>
-  </g>
-  <!-- RIGHT WING -->
-  <g fill="none" stroke="#00ff41" stroke-linecap="round" filter="url(#neonGlow)">
-    <path d="M392,112 Q442,92 508,78" stroke-width="2.2"/>
-    <path d="M392,122 Q452,112 528,106" stroke-width="2"/>
-    <path d="M392,133 Q454,133 532,136" stroke-width="1.8"/>
-    <path d="M392,142 Q450,146 524,160" stroke-width="1.6"/>
-    <path d="M392,150 Q446,162 510,183" stroke-width="1.4"/>
-    <path d="M392,108 Q432,86 472,70 Q502,58 528,63 Q548,68 554,84 Q560,100 544,110 Q527,120 500,117 Q458,113 420,118" stroke-width="1.4" opacity="0.65"/>
-    <line x1="508" y1="78" x2="526" y2="70" stroke-width="1.2" opacity="0.8"/>
-    <line x1="528" y1="106" x2="548" y2="101" stroke-width="1.2" opacity="0.8"/>
-    <line x1="532" y1="136" x2="554" y2="134" stroke-width="1.2" opacity="0.8"/>
-    <line x1="524" y1="160" x2="544" y2="163" stroke-width="1.2" opacity="0.8"/>
-    <line x1="510" y1="183" x2="528" y2="191" stroke-width="1.2" opacity="0.8"/>
-  </g>
-  <!-- BODY -->
-  <g fill="none" stroke="#00ff41" filter="url(#neonGlow)">
-    <path d="M322,106 Q312,118 314,146 Q316,166 332,179 Q341,186 350,188 Q359,186 368,179 Q384,166 386,146 Q388,118 378,106 Z" stroke-width="1.8"/>
-    <path d="M337,124 Q344,116 350,120 Q356,116 363,124 Q360,140 350,145 Q340,140 337,124Z" stroke-width="1.2" opacity="0.65"/>
-    <path d="M336,186 Q331,194 326,200 M336,186 Q333,196 331,203 M336,186 Q335,195 337,202" stroke-width="1.3"/>
-    <path d="M364,186 Q369,194 374,200 M364,186 Q367,196 369,203 M364,186 Q365,195 363,202" stroke-width="1.3"/>
-  </g>
-  <!-- LEFT HEAD -->
-  <g fill="none" stroke="#00ff41" stroke-linecap="round" filter="url(#neonGlow)">
-    <path d="M326,106 Q318,95 307,86 Q296,78 288,80 Q280,82 278,91 Q276,100 283,107 Q291,113 302,110 Q314,107 322,112" stroke-width="1.8"/>
-    <path d="M278,91 Q267,87 262,93 Q265,100 276,98" stroke-width="1.5"/>
-    <circle cx="291" cy="89" r="3.2" stroke-width="1.5"/>
-    <circle cx="291" cy="89" r="1.3" fill="#00ff41"/>
-    <path d="M300,80 Q304,70 309,77 M310,78 Q316,66 320,75 M320,76 Q324,68 326,77" stroke-width="1.2" opacity="0.8"/>
-  </g>
-  <!-- RIGHT HEAD -->
-  <g fill="none" stroke="#00ff41" stroke-linecap="round" filter="url(#neonGlow)">
-    <path d="M374,106 Q382,95 393,86 Q404,78 412,80 Q420,82 422,91 Q424,100 417,107 Q409,113 398,110 Q386,107 378,112" stroke-width="1.8"/>
-    <path d="M422,91 Q433,87 438,93 Q435,100 424,98" stroke-width="1.5"/>
-    <circle cx="409" cy="89" r="3.2" stroke-width="1.5"/>
-    <circle cx="409" cy="89" r="1.3" fill="#00ff41"/>
-    <path d="M400,80 Q396,70 391,77 M390,78 Q384,66 380,75 M380,76 Q376,68 374,77" stroke-width="1.2" opacity="0.8"/>
-  </g>
-  <!-- Subtitle -->
-  <text x="350" y="215" text-anchor="middle" fill="#00cc33" font-family="Courier New, monospace" font-size="10" opacity="0.9" filter="url(#softGlow)">SYSTEMS · AI · SECURITY · CLOUD</text>
-</svg>
+<img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNzAwIiBoZWlnaHQ9IjIyMCIgdmlld0JveD0iMCAwIDcwMCAyMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPGRlZnM+CiAgICA8cmFkaWFsR3JhZGllbnQgaWQ9ImJnR2xvdyIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNTAlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3R5bGU9InN0b3AtY29sb3I6IzAwMWEwYTtzdG9wLW9wYWNpdHk6MSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMwMDAwMDA7c3RvcC1vcGFjaXR5OjEiLz4KICAgIDwvcmFkaWFsR3JhZGllbnQ+CiAgICA8ZmlsdGVyIGlkPSJuZW9uR2xvdyIgeD0iLTMwJSIgeT0iLTMwJSIgd2lkdGg9IjE2MCUiIGhlaWdodD0iMTYwJSI+CiAgICAgIDxmZUdhdXNzaWFuQmx1ciBzdGREZXZpYXRpb249IjMiIHJlc3VsdD0iYmx1cjEiLz4KICAgICAgPGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iNiIgcmVzdWx0PSJibHVyMiIvPgogICAgICA8ZmVNZXJnZT48ZmVNZXJnZU5vZGUgaW49ImJsdXIyIi8+PGZlTWVyZ2VOb2RlIGluPSJibHVyMSIvPjxmZU1lcmdlTm9kZSBpbj0iU291cmNlR3JhcGhpYyIvPjwvZmVNZXJnZT4KICAgIDwvZmlsdGVyPgogICAgPGZpbHRlciBpZD0ic29mdEdsb3ciPgogICAgICA8ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSIyIiByZXN1bHQ9ImJsdXIiLz4KICAgICAgPGZlTWVyZ2U+PGZlTWVyZ2VOb2RlIGluPSJibHVyIi8+PGZlTWVyZ2VOb2RlIGluPSJTb3VyY2VHcmFwaGljIi8+PC9mZU1lcmdlPgogICAgPC9maWx0ZXI+CiAgPC9kZWZzPgogIDxyZWN0IHdpZHRoPSI3MDAiIGhlaWdodD0iMjIwIiBmaWxsPSJ1cmwoI2JnR2xvdykiLz4KICA8IS0tIE1hdHJpeCByYWluIC0tPgogIDxnIGZpbGw9IiMwMGZmNDEiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iOSIgb3BhY2l0eT0iMC4xOCI+CiAgICA8dGV4dCB4PSIxOCIgeT0iMTUiPjE8L3RleHQ+PHRleHQgeD0iMTgiIHk9IjI4Ij4wPC90ZXh0Pjx0ZXh0IHg9IjE4IiB5PSI1NCI+MTwvdGV4dD48dGV4dCB4PSIxOCIgeT0iODAiPjA8L3RleHQ+PHRleHQgeD0iMTgiIHk9IjEyMCI+MTwvdGV4dD48dGV4dCB4PSIxOCIgeT0iMTYwIj4wPC90ZXh0Pjx0ZXh0IHg9IjE4IiB5PSIyMDAiPjE8L3RleHQ+CiAgICA8dGV4dCB4PSI0MCIgeT0iMjAiPjA8L3RleHQ+PHRleHQgeD0iNDAiIHk9IjUwIj4xPC90ZXh0Pjx0ZXh0IHg9IjQwIiB5PSI5MCI+MDwvdGV4dD48dGV4dCB4PSI0MCIgeT0iMTQwIj4xPC90ZXh0Pjx0ZXh0IHg9IjQwIiB5PSIxODUiPjA8L3RleHQ+CiAgICA8dGV4dCB4PSI2MiIgeT0iMTAiPjE8L3RleHQ+PHRleHQgeD0iNjIiIHk9IjQ1Ij4wPC90ZXh0Pjx0ZXh0IHg9IjYyIiB5PSI4NSI+MTwvdGV4dD48dGV4dCB4PSI2MiIgeT0iMTMwIj4wPC90ZXh0Pjx0ZXh0IHg9IjYyIiB5PSIxNzUiPjE8L3RleHQ+CiAgICA8dGV4dCB4PSI2MzgiIHk9IjE1Ij4wPC90ZXh0Pjx0ZXh0IHg9IjYzOCIgeT0iNTUiPjE8L3RleHQ+PHRleHQgeD0iNjM4IiB5PSIxMDAiPjA8L3RleHQ+PHRleHQgeD0iNjM4IiB5PSIxNTAiPjE8L3RleHQ+PHRleHQgeD0iNjM4IiB5PSIxOTUiPjA8L3RleHQ+CiAgICA8dGV4dCB4PSI2NjAiIHk9IjI1Ij4xPC90ZXh0Pjx0ZXh0IHg9IjY2MCIgeT0iNjUiPjA8L3RleHQ+PHRleHQgeD0iNjYwIiB5PSIxMTAiPjE8L3RleHQ+PHRleHQgeD0iNjYwIiB5PSIxNjAiPjA8L3RleHQ+PHRleHQgeD0iNjYwIiB5PSIyMDUiPjE8L3RleHQ+CiAgICA8dGV4dCB4PSI2ODIiIHk9IjEwIj4wPC90ZXh0Pjx0ZXh0IHg9IjY4MiIgeT0iNDgiPjE8L3RleHQ+PHRleHQgeD0iNjgyIiB5PSI5MCI+MDwvdGV4dD48dGV4dCB4PSI2ODIiIHk9IjEzNSI+MTwvdGV4dD48dGV4dCB4PSI2ODIiIHk9IjE4MCI+MDwvdGV4dD4KICA8L2c+CiAgPCEtLSBTaGllbGQgLS0+CiAgPHBhdGggZD0iTTM1MCwyOCBMNDIyLDUwIEw0MzIsMTIyIFE0MzIsMTY4IDM1MCwxOTggUTI2OCwxNjggMjY4LDEyMiBMMjc4LDUwIFoiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwY2MzMyIgc3Ryb2tlLXdpZHRoPSIxLjUiIG9wYWNpdHk9IjAuMyIgZmlsdGVyPSJ1cmwoI3NvZnRHbG93KSIvPgogIDwhLS0gTEVGVCBXSU5HIC0tPgogIDxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwZmY0MSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBmaWx0ZXI9InVybCgjbmVvbkdsb3cpIj4KICAgIDxwYXRoIGQ9Ik0zMDgsMTEyIFEyNTgsOTIgMTkyLDc4IiBzdHJva2Utd2lkdGg9IjIuMiIvPgogICAgPHBhdGggZD0iTTMwOCwxMjIgUTI0OCwxMTIgMTcyLDEwNiIgc3Ryb2tlLXdpZHRoPSIyIi8+CiAgICA8cGF0aCBkPSJNMzA4LDEzMyBRMjQ2LDEzMyAxNjgsMTM2IiBzdHJva2Utd2lkdGg9IjEuOCIvPgogICAgPHBhdGggZD0iTTMwOCwxNDIgUTI1MCwxNDYgMTc2LDE2MCIgc3Ryb2tlLXdpZHRoPSIxLjYiLz4KICAgIDxwYXRoIGQ9Ik0zMDgsMTUwIFEyNTQsMTYyIDE5MCwxODMiIHN0cm9rZS13aWR0aD0iMS40Ii8+CiAgICA8cGF0aCBkPSJNMzA4LDEwOCBRMjY4LDg2IDIyOCw3MCBRMTk4LDU4IDE3Miw2MyBRMTUyLDY4IDE0Niw4NCBRMTQwLDEwMCAxNTYsMTEwIFExNzMsMTIwIDIwMCwxMTcgUTI0MiwxMTMgMjgwLDExOCIgc3Ryb2tlLXdpZHRoPSIxLjQiIG9wYWNpdHk9IjAuNjUiLz4KICAgIDxsaW5lIHgxPSIxOTIiIHkxPSI3OCIgeDI9IjE3NCIgeTI9IjcwIiBzdHJva2Utd2lkdGg9IjEuMiIgb3BhY2l0eT0iMC44Ii8+CiAgICA8bGluZSB4MT0iMTcyIiB5MT0iMTA2IiB4Mj0iMTUyIiB5Mj0iMTAxIiBzdHJva2Utd2lkdGg9IjEuMiIgb3BhY2l0eT0iMC44Ii8+CiAgICA8bGluZSB4MT0iMTY4IiB5MT0iMTM2IiB4Mj0iMTQ2IiB5Mj0iMTM0IiBzdHJva2Utd2lkdGg9IjEuMiIgb3BhY2l0eT0iMC44Ii8+CiAgICA8bGluZSB4MT0iMTc2IiB5MT0iMTYwIiB4Mj0iMTU2IiB5Mj0iMTYzIiBzdHJva2Utd2lkdGg9IjEuMiIgb3BhY2l0eT0iMC44Ii8+CiAgICA8bGluZSB4MT0iMTkwIiB5MT0iMTgzIiB4Mj0iMTcyIiB5Mj0iMTkxIiBzdHJva2Utd2lkdGg9IjEuMiIgb3BhY2l0eT0iMC44Ii8+CiAgPC9nPgogIDwhLS0gUklHSFQgV0lORyAtLT4KICA8ZyBmaWxsPSJub25lIiBzdHJva2U9IiMwMGZmNDEiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgZmlsdGVyPSJ1cmwoI25lb25HbG93KSI+CiAgICA8cGF0aCBkPSJNMzkyLDExMiBRNDQyLDkyIDUwOCw3OCIgc3Ryb2tlLXdpZHRoPSIyLjIiLz4KICAgIDxwYXRoIGQ9Ik0zOTIsMTIyIFE0NTIsMTEyIDUyOCwxMDYiIHN0cm9rZS13aWR0aD0iMiIvPgogICAgPHBhdGggZD0iTTM5MiwxMzMgUTQ1NCwxMzMgNTMyLDEzNiIgc3Ryb2tlLXdpZHRoPSIxLjgiLz4KICAgIDxwYXRoIGQ9Ik0zOTIsMTQyIFE0NTAsMTQ2IDUyNCwxNjAiIHN0cm9rZS13aWR0aD0iMS42Ii8+CiAgICA8cGF0aCBkPSJNMzkyLDE1MCBRNDQ2LDE2MiA1MTAsMTgzIiBzdHJva2Utd2lkdGg9IjEuNCIvPgogICAgPHBhdGggZD0iTTM5MiwxMDggUTQzMiw4NiA0NzIsNzAgUTUwMiw1OCA1MjgsNjMgUTU0OCw2OCA1NTQsODQgUTU2MCwxMDAgNTQ0LDExMCBRNTI3LDEyMCA1MDAsMTE3IFE0NTgsMTEzIDQyMCwxMTgiIHN0cm9rZS13aWR0aD0iMS40IiBvcGFjaXR5PSIwLjY1Ii8+CiAgICA8bGluZSB4MT0iNTA4IiB5MT0iNzgiIHgyPSI1MjYiIHkyPSI3MCIgc3Ryb2tlLXdpZHRoPSIxLjIiIG9wYWNpdHk9IjAuOCIvPgogICAgPGxpbmUgeDE9IjUyOCIgeTE9IjEwNiIgeDI9IjU0OCIgeTI9IjEwMSIgc3Ryb2tlLXdpZHRoPSIxLjIiIG9wYWNpdHk9IjAuOCIvPgogICAgPGxpbmUgeDE9IjUzMiIgeTE9IjEzNiIgeDI9IjU1NCIgeTI9IjEzNCIgc3Ryb2tlLXdpZHRoPSIxLjIiIG9wYWNpdHk9IjAuOCIvPgogICAgPGxpbmUgeDE9IjUyNCIgeTE9IjE2MCIgeDI9IjU0NCIgeTI9IjE2MyIgc3Ryb2tlLXdpZHRoPSIxLjIiIG9wYWNpdHk9IjAuOCIvPgogICAgPGxpbmUgeDE9IjUxMCIgeTE9IjE4MyIgeDI9IjUyOCIgeTI9IjE5MSIgc3Ryb2tlLXdpZHRoPSIxLjIiIG9wYWNpdHk9IjAuOCIvPgogIDwvZz4KICA8IS0tIEJPRFkgLS0+CiAgPGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDBmZjQxIiBmaWx0ZXI9InVybCgjbmVvbkdsb3cpIj4KICAgIDxwYXRoIGQ9Ik0zMjIsMTA2IFEzMTIsMTE4IDMxNCwxNDYgUTMxNiwxNjYgMzMyLDE3OSBRMzQxLDE4NiAzNTAsMTg4IFEzNTksMTg2IDM2OCwxNzkgUTM4NCwxNjYgMzg2LDE0NiBRMzg4LDExOCAzNzgsMTA2IFoiIHN0cm9rZS13aWR0aD0iMS44Ii8+CiAgICA8cGF0aCBkPSJNMzM3LDEyNCBRMzQ0LDExNiAzNTAsMTIwIFEzNTYsMTE2IDM2MywxMjQgUTM2MCwxNDAgMzUwLDE0NSBRMzQwLDE0MCAzMzcsMTI0WiIgc3Ryb2tlLXdpZHRoPSIxLjIiIG9wYWNpdHk9IjAuNjUiLz4KICAgIDxwYXRoIGQ9Ik0zMzYsMTg2IFEzMzEsMTk0IDMyNiwyMDAgTTMzNiwxODYgUTMzMywxOTYgMzMxLDIwMyBNMzM2LDE4NiBRMzM1LDE5NSAzMzcsMjAyIiBzdHJva2Utd2lkdGg9IjEuMyIvPgogICAgPHBhdGggZD0iTTM2NCwxODYgUTM2OSwxOTQgMzc0LDIwMCBNMzY0LDE4NiBRMzY3LDE5NiAzNjksMjAzIE0zNjQsMTg2IFEzNjUsMTk1IDM2MywyMDIiIHN0cm9rZS13aWR0aD0iMS4zIi8+CiAgPC9nPgogIDwhLS0gTEVGVCBIRUFEIC0tPgogIDxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwZmY0MSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBmaWx0ZXI9InVybCgjbmVvbkdsb3cpIj4KICAgIDxwYXRoIGQ9Ik0zMjYsMTA2IFEzMTgsOTUgMzA3LDg2IFEyOTYsNzggMjg4LDgwIFEyODAsODIgMjc4LDkxIFEyNzYsMTAwIDI4MywxMDcgUTI5MSwxMTMgMzAyLDExMCBRMzE0LDEwNyAzMjIsMTEyIiBzdHJva2Utd2lkdGg9IjEuOCIvPgogICAgPHBhdGggZD0iTTI3OCw5MSBRMjY3LDg3IDI2Miw5MyBRMjY1LDEwMCAyNzYsOTgiIHN0cm9rZS13aWR0aD0iMS41Ii8+CiAgICA8Y2lyY2xlIGN4PSIyOTEiIGN5PSI4OSIgcj0iMy4yIiBzdHJva2Utd2lkdGg9IjEuNSIvPgogICAgPGNpcmNsZSBjeD0iMjkxIiBjeT0iODkiIHI9IjEuMyIgZmlsbD0iIzAwZmY0MSIvPgogICAgPHBhdGggZD0iTTMwMCw4MCBRMzA0LDcwIDMwOSw3NyBNMzEwLDc4IFEzMTYsNjYgMzIwLDc1IE0zMjAsNzYgUTMyNCw2OCAzMjYsNzciIHN0cm9rZS13aWR0aD0iMS4yIiBvcGFjaXR5PSIwLjgiLz4KICA8L2c+CiAgPCEtLSBSSUdIVCBIRUFEIC0tPgogIDxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwZmY0MSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBmaWx0ZXI9InVybCgjbmVvbkdsb3cpIj4KICAgIDxwYXRoIGQ9Ik0zNzQsMTA2IFEzODIsOTUgMzkzLDg2IFE0MDQsNzggNDEyLDgwIFE0MjAsODIgNDIyLDkxIFE0MjQsMTAwIDQxNywxMDcgUTQwOSwxMTMgMzk4LDExMCBRMzg2LDEwNyAzNzgsMTEyIiBzdHJva2Utd2lkdGg9IjEuOCIvPgogICAgPHBhdGggZD0iTTQyMiw5MSBRNDMzLDg3IDQzOCw5MyBRNDM1LDEwMCA0MjQsOTgiIHN0cm9rZS13aWR0aD0iMS41Ii8+CiAgICA8Y2lyY2xlIGN4PSI0MDkiIGN5PSI4OSIgcj0iMy4yIiBzdHJva2Utd2lkdGg9IjEuNSIvPgogICAgPGNpcmNsZSBjeD0iNDA5IiBjeT0iODkiIHI9IjEuMyIgZmlsbD0iIzAwZmY0MSIvPgogICAgPHBhdGggZD0iTTQwMCw4MCBRMzk2LDcwIDM5MSw3NyBNMzkwLDc4IFEzODQsNjYgMzgwLDc1IE0zODAsNzYgUTM3Niw2OCAzNzQsNzciIHN0cm9rZS13aWR0aD0iMS4yIiBvcGFjaXR5PSIwLjgiLz4KICA8L2c+CiAgPHRleHQgeD0iMzUwIiB5PSIyMTUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwMGNjMzMiIGZvbnQtZmFtaWx5PSJDb3VyaWVyIE5ldywgbW9ub3NwYWNlIiBmb250LXNpemU9IjEwIiBvcGFjaXR5PSIwLjkiIGZpbHRlcj0idXJsKCNzb2Z0R2xvdykiPlNZU1RFTVMgwrcgQUkgwrcgU0VDVVJJVFkgwrcgQ0xPVUQ8L3RleHQ+Cjwvc3ZnPgo=" width="700" alt="Nasim Khan - Two Headed Cyber Eagle"/>
 
 ### `> Systems Engineer · AI Red Teamer · Data Analyst · Published Researcher`
 
@@ -208,7 +126,6 @@ nasim = {
 ### Databases
 ![SQL](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
 ![Firestore](https://img.shields.io/badge/Firestore-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=for-the-badge&logo=Amazon%20DynamoDB&logoColor=white)
 
 ### Security & Tools
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
