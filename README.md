@@ -9,7 +9,7 @@
 ╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝╚═╝╚═╝     ╚═╝    ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝
 ```
 
-### `> Systems Engineer & Cyber Security · AI Research & Analysis · Data Analysis · Published Researcher`
+### `> Systems Engineer · AI Red Teamer · Data Analyst · Published Researcher`
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&pause=1000&color=00FF41&center=true&vCenter=true&width=620&lines=Prompt+engineering+autonomous+system+programs...;AI+red+teaming+%26+adversarial+LLM+research...;Low-level+OS+engineering+in+C...;Cloud+infra+%7C+AWS+%2F+GCP+%2F+Azure...;Data+analysis+%7C+Python+%2B+SQL+%2B+OCR...)](https://git.io/typing-svg)
 
@@ -184,7 +184,7 @@ nasim = {
 
 <div align="center">
 
-![Trophies](https://github.com/Nasim7045/Nasim7045/)
+![Trophies](https://github-profile-trophy.vercel.app/?username=Nasim7045&theme=radical&no-frame=true&no-bg=true&margin-w=6&column=7)
 
 </div>
 
