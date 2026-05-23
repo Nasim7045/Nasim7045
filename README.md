@@ -192,8 +192,6 @@ nasim = {
 
 <div align="center">
 
-[![Visits](https://visitcount.itsvg.in/api?id=Nasim7045&icon=2&color=6)](https://visitcount.itsvg.in)
-
 *`// engineered to run forever`*
 
 </div>
