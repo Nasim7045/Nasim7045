@@ -184,7 +184,7 @@ nasim = {
 
 <div align="center">
 
-![Trophies](https://github-profile-trophy.vercel.app/?username=Nasim7045&theme=radical&no-frame=true&no-bg=true&margin-w=6&column=7)
+![Trophies](https://github.com/Nasim7045/Nasim7045/)
 
 </div>
 
